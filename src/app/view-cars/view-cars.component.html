@@ -1,0 +1,32 @@
+<div class="container">
+  <h2>Cars List</h2>
+
+  <!-- Search Bar -->
+  <div class="mb-3">
+    <input type="text" class="form-control" placeholder="Search by brand or price" [(ngModel)]="searchTerm">
+  </div>
+
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Brand</th>
+        <th>Price</th>
+        <th>Date</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let car of filteredCars()">
+        <td>{{ car.id }}</td>
+        <td>{{ car.brand }}</td>
+        <td>{{ car.price }}</td>
+        <td>{{ car.date }}</td>
+        <td>
+          <a [routerLink]="['/update-car', car.id]" class="btn btn-primary">Update</a>
+          <a [routerLink]="['/delete-car', car.id]" class="btn btn-danger">Delete</a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

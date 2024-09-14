@@ -1,0 +1,88 @@
+/* update.component.css */
+.container {
+  max-width: 90%;
+  margin: auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #333;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  margin-bottom: 20px;
+}
+
+.mb-3 {
+  margin-bottom: 20px;
+}
+
+.form-control {
+  border-radius: 20px;
+  border: 2px solid #007bff;
+  padding: 10px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: #0056b3;
+  outline: none;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #f2f2f2;
+}
+
+.table thead {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.table th, .table td {
+  padding: 15px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.table th {
+  font-weight: bold;
+}
+
+.table td {
+  border-bottom: 1px solid #ddd;
+}
+
+.table a.btn {
+  border-radius: 20px;
+  padding: 8px 15px;
+  font-size: 14px;
+  margin: 2px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.table a.btn-primary {
+  background-color: #007bff;
+}
+
+.table a.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.table a.btn-danger {
+  background-color: #dc3545;
+}
+
+.table a.btn-danger:hover {
+  background-color: #c82333;
+}

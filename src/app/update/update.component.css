@@ -1,0 +1,69 @@
+/* update.component.css */
+.container {
+  max-width: 80%;
+  margin: auto;
+  padding: 30px;
+  background-color: #f4f4f9;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  color: #333;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+.form-control {
+  border-radius: 25px;
+  border: 2px solid #007bff;
+  padding: 12px 20px;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: #0056b3;
+  outline: none;
+  box-shadow: 0 0 8px rgba(0, 91, 178, 0.4);
+}
+
+button.btn-info {
+  background-color: #007bff;
+  border: none;
+  border-radius: 25px;
+  padding: 12px 24px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button.btn-info:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+button.btn-info:active {
+  background-color: #003d7a;
+}
+h2 {
+  color: #333;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  margin-bottom: 20px;
+}
